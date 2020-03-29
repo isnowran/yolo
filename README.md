@@ -14,7 +14,42 @@ OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
 ![image](https://github.com/isnowran/yolo/blob/master/demo.v2_voc.detect.jpg/v2_voc_411907.gif)
 
 ## yolo_v2 and vocdata, image detect
-`python valid.py --checkpoint=checkpoint/v2.resnet152.dump --maxsize=100 --drawimg=True --debug=False --models=resnet152 --T_p=0.35`
+```
+[binary@Xiaobai v2.src]$ mkdir img_out output
+[binary@Xiaobai v2.src]$ python valid.py --checkpoint=checkpoint/v2.resnet152.dump --maxsize=100 --drawimg=True --debug=False --models=resnet152 --T_p=0.35 --maxsize=5
+load checkpoint checkpoint/v2.resnet152.dump
+T_p, T_iou 0.35 0.5
+test size 5
+100%|██████████| 5/5 [00:08<00:00,  1.70s/it]
+# aeroplane
+AP 1.0000
+recall 1.0000
+precision 1.0000
+
+# dog
+AP 0.5000
+recall 0.5000
+precision 1.0000
+
+# person
+AP 0.8333
+recall 0.8333
+precision 1.0000
+
+# car
+AP 0.5000
+recall 0.5000
+precision 0.5000
+
+# tvmonitor
+AP 1.0000
+recall 1.0000
+precision 1.0000
+
+----------
+mAP 0.7667
+[binary@Xiaobai v2.src]$
+```
 
 ![image](https://github.com/isnowran/yolo/blob/master/demo.v2_voc.detect.jpg/24_007339.jpg)
 ![image](https://github.com/isnowran/yolo/blob/master/demo.v2_voc.detect.jpg/28_007237.jpg)
