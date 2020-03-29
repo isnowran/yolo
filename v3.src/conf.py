@@ -6,11 +6,11 @@ if usevoc:
 else:
     from base import init_classes80 as init_classes
 
-gk_noobj, gk_obj, gk_coor, gk_class = 'noobj', 'obj', 'corr', 'class'
+gk_noobj, gk_obj, gk_coor, gk_class = 'noobj', 'obj', 'coor', 'class'
 
 gmap = {}
-gmap[gk_noobj] = 0.1
-gmap[gk_obj] = 2.0
+gmap[gk_noobj] = 0.5
+gmap[gk_obj] = 1.5
 gmap[gk_coor] = 1.0
 gmap[gk_class] = 1.0
 
