@@ -15,5 +15,5 @@
 
 ## demo v2.voc
 ![image](https://github.com/isnowran/yolo/blob/master/demo.v2_voc.detect.jpg/24_007339.jpg)
-![image https://github.com/isnowran/yolo/blob/master/demo.v2_voc.detect.jpg/28_007237.jpg]
-![image https://github.com/isnowran/yolo/blob/master/demo.v2_voc.detect.jpg/31_000467.jpg]
+![image](https://github.com/isnowran/yolo/blob/master/demo.v2_voc.detect.jpg/28_007237.jpg)
+![image](https://github.com/isnowran/yolo/blob/master/demo.v2_voc.detect.jpg/31_000467.jpg)
