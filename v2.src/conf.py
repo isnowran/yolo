@@ -23,7 +23,7 @@ for i in range(0, 255, 55):
 
 trainroot = ['vocdata/voc2012', 'vocdata/voc2007_train']
 validroot = ['vocdata/voc2007_val']
-eta_decay = {5:1e-3, 180:0.1, 240:0.01}
+eta_decay = {5:1e-3, 120:0.1, 200:0.01}
 anchors_tup = (1.32, 1.73), (3.19, 4.0), (5.05, 8.09), (9.47, 4.84), (11.23, 10.0)
 anchors = torch.zeros(len(anchors_tup), 2)
 for i, it in enumerate(anchors_tup):

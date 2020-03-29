@@ -23,7 +23,7 @@ for i in range(0, 255, 55):
 trainroot = ['vocdata/voc2007_train', 'vocdata/voc2012']
 validroot = ['vocdata/voc2007_val']
 
-eta_decay = {2:1e-3, 90:0.1, 120:0.01}
+eta_decay = {2:1e-3, 60:0.1, 90:0.01}
 
 input_size = 416
 grids = 13, 26, 52

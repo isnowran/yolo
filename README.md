@@ -45,7 +45,7 @@ mAP 0.7667
 
 ## train v2/v3, voc/coco, resnet/darknet
 ```
-[binary@Xiaobai v2.src]$ python main.py --cuda=cuda:1 --epoch=180 --eta=0.0001 --bat=16 --codename=voc --models=darknet53 --summary=True --jitterimg=True --shift=True
+[binary@Xiaobai v2.src]$ python main.py --cuda=cuda:1 --epoch=240 --eta=0.0001 --bat=16 --codename=voc --models=darknet53 --summary=True --jitterimg=True --shift=True
 device: cpu cpu
 models: darknet53
 jitterimg True
