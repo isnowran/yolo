@@ -10,6 +10,7 @@ OpenCV: FFMPEG: fallback to use tag 0x7634706d/'mp4v'
 1 fps 0.61 0.71 x 0.92 = 0.65 boxes (42, 1, 898, 539) motorbike
 2 fps 0.62 0.71 x 0.92 = 0.65 boxes (41, 1, 900, 539) motorbike
 3 fps 0.62 0.70 x 0.92 = 0.65 boxes (40, 1, 901, 539) motorbike
+...
 ```
 ![image](https://github.com/isnowran/yolo/blob/master/demo.v2_voc.detect.jpg/v2_voc_411907.gif)
 
