@@ -12,6 +12,7 @@
 
 ## video detect
 > python cvideo.py --mp4=video/379489.mp4 --T_p=0.35 --checkpoint=checkpoint/v2.resnet152.dump
+![image](https://github.com/isnowran/yolo/blob/master/demo.v2_voc.detect.jpg/v2_voc_411907.gif)
 
 ## demo v2.voc
 ![image](https://github.com/isnowran/yolo/blob/master/demo.v2_voc.detect.jpg/24_007339.jpg)
