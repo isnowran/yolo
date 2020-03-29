@@ -59,6 +59,6 @@ valid_size:2510
 ```
 ## view loss
 ```
-binary@jita:~/v3.src$ tensorboard --logdir runs --bind_all
+[binary@Xiaobai v2.src]$ tensorboard --logdir runs --bind_all
 TensorBoard 2.2.0 at http://jita:6006/ (Press CTRL+C to quit)
 ```
