@@ -27,20 +27,7 @@ AP 1.0000
 recall 1.0000
 precision 1.0000
 
-# dog
-AP 0.5000
-recall 0.5000
-precision 1.0000
-
-# person
-AP 0.8333
-recall 0.8333
-precision 1.0000
-
-# car
-AP 0.5000
-recall 0.5000
-precision 0.5000
+...
 
 # tvmonitor
 AP 1.0000
@@ -57,7 +44,21 @@ mAP 0.7667
 ![image](https://github.com/isnowran/yolo/blob/master/demo.v2_voc.detect.jpg/31_000467.jpg)
 
 ## train v2/v3, voc/coco, resnet/darknet
-`python main.py --cuda=cuda:1 --epoch=180 --eta=0.0001 --bat=16 --codename=voc --models=darknet53 --summary=True --jitterimg=True --shift=True`
-
+```
+[binary@Xiaobai v2.src]$ python main.py --cuda=cuda:1 --epoch=180 --eta=0.0001 --bat=16 --codename=voc --models=darknet53 --summary=True --jitterimg=True --shift=True
+device: cpu cpu
+models: darknet53
+jitterimg True
+shift True
+optim: SGD
+init trainset...
+train_size:19626
+init validset...
+valid_size:2510
+  0%|          | 0/180 [00:00<?, ?it/s]
+```
 ## view loss
-`tensorboard --logdir runs --bind_all`
+```
+binary@jita:~/v3.src$ tensorboard --logdir runs --bind_all
+TensorBoard 2.2.0 at http://jita:6006/ (Press CTRL+C to quit)
+```
