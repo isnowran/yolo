@@ -1,4 +1,4 @@
-# v2.src
+# demo yolo_v2 and vocdata
 > cd v2.src
 
 # train voc, resnet or darknet
