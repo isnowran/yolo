@@ -66,7 +66,8 @@ def proc(net, T_p, T_iou, mp4, device):
         box_pure = util.nms(p, rec, maxv, maxind, T_p, T_iou)
 
         for p, bbox, cval, cind in box_pure:
-            cname = conf.init_classes.classmap_voc[cind]
+            cind = int(cind)
+            cname = conf.init_classes.idmap[cind]
             color = conf.colormap[cind]
 
             box = tuple(bbox.int().tolist())
